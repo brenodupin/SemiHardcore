@@ -1,0 +1,6 @@
+name: SemiHardcore
+version: '${project.version}'
+main: com.brenodupin.semihardcore.SemiHardcore
+api-version: 1.19
+authors: [ Breno ]
+description: SemiHardcore Plugin
