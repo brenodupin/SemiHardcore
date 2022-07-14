@@ -1,6 +1,6 @@
-package com.brenodupin.semihardcore;
+package com.github.brenodupin.semihardcore;
 
-import com.brenodupin.semihardcore.handlers.DeathHandler;
+import com.github.brenodupin.semihardcore.handlers.DeathHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,8 +15,8 @@ public final class SemiHardcore extends JavaPlugin {
         Bukkit.getLogger().info("Startup - SemiHardcore");
         new DeathHandler(this);
 
-        config.addDefault("start-percentage",80);
-        config.addDefault("end-percentage",50);
+        config.addDefault("start-percentage",80.0);
+        config.addDefault("end-percentage",50.0);
         config.addDefault("decrement-percentage",0.2);
         config.options().copyDefaults(true);
         saveConfig();
