@@ -3,6 +3,7 @@ package com.github.brenodupin.semihardcore.handlers;
 import com.github.brenodupin.semihardcore.SemiHardcore;
 import org.bukkit.Bukkit;
 import org.bukkit.Statistic;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
