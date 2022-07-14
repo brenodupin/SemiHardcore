@@ -7,12 +7,10 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import java.util.Random;
-
 public class DeathHandler implements Listener {
     public DeathHandler(SemiHardcore plugin) {
         Bukkit.getPluginManager().registerEvents(this, plugin);
     }
-
 
     @EventHandler
     public void OnPlayerDeath(PlayerDeathEvent event) {
