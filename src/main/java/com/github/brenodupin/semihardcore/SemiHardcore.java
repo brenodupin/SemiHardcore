@@ -12,7 +12,7 @@ public final class SemiHardcore extends JavaPlugin {
     @Override
     public void onEnable() {
         instance=this;
-        Bukkit.getLogger().info("Startup - SemiHardcore");
+        Bukkit.getLogger().info("[SemiHardcore] - Enable");
         new DeathHandler(this);
 
         config.addDefault("start-percentage",80.0);
@@ -24,19 +24,8 @@ public final class SemiHardcore extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        Bukkit.getLogger().info("Shutting Down - SemiHardcore");
+        Bukkit.getLogger().info("[SemiHardcore] - Disable");
     }
 
     public static SemiHardcore instance;
-
-/*
-    private void checkConfig(FileConfiguration config) {
-        if (config == null) {
-            config.addDefault("start-percentage",0.8);
-            config.addDefault("end-percentage",0.5);
-            config.addDefault("decrement-percentage",0.002);
-        }
-    }
-*/
-
 }
