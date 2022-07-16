@@ -6,3 +6,7 @@ start-percentage: 80
 end-percentage: 50 (minimun)  
 decrement-percentage: 0.2  
 The decrement happens when a player survives an entire day (2400 ticks).
+
+
+TODO Maven Build
+TODO Release
