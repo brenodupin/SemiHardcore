@@ -1,4 +1,4 @@
-# **SemiHardcore**
+# **SemiHardcore - v1.1**
 A simple plugin that deletes a percentage of items on a Player Death. This percentage changes the more the player survives until it reaches a minimum.  
 **The percentage values can be changed on the config.yml file.**
 ## JAR download
