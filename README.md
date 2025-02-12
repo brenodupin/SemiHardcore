@@ -2,7 +2,7 @@
 A simple plugin that deletes a percentage of items slots on a Player Death. This percentage changes the more the player survives until it reaches a minimum.  
 **The percentage values can be changed on the config.yml file.**
 ## JAR download
-Check [Releases] (TODO)
+[Releases](https://github.com/brenodupin/SemiHardcore/releases/latest)
 
 ### Config.yml
 
@@ -27,8 +27,3 @@ build-output=path/to/your/output/folder
 ```
 4. Run Maven Install
 5. JAR output will be on both your folder defined in the `build-output` in the `dev.properties` file and the `target` folder created inside the project folder after the Maven Install.  
-
-## TODO
-- [ ] Change to Gradle
-- [ ] Update to newer versions
-- [ ] Backwards Compatibility (1.12-recent)
